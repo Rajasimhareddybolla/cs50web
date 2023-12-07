@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+
+            a{
+                margin: 20px;
+            }
+            .serch_bar{
+                height: 500px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: nowrap;
+            }
+            div>form{
+                display: flex;
+                width: 60%;
+                height: 20%;
+                border-radius: 4%;
+                justify-content: center;
+                align-items: center;
+
+            }
+            form>*{
+                margin: 2px;
+                padding: 0px;
+            }
+        </style>
+        <title>Search</title>
+    </head>
+    <body>
+        <div style="display: flex;justify-content: flex-end;">
+            <span>
+                <a href="#">Images Search</a>
+                <a href="#">Advanced Search</a>
+            </span>
+        </div>
+      <div class="serch_bar">
+        <form action="https://google.com/search">
+            <input type="text" name="q" style=" width:70%; height: 2.5rem;" autocomplete="off" autofocus placeholder="Search hear">
+
+            <input type="submit" value="Google Search">
+        </form>
+      </div>
+      
+    </body>
+</html>
